@@ -8,7 +8,7 @@ const CanvasWrap = styled.div`
     height: 100vh;
     display: flex;
     flex: 1;
-    padding: 40px 0;
+    padding: 40px 10px;
     overflow: scroll;
 `;
 
