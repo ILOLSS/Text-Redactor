@@ -9,9 +9,9 @@ import WeightSizeFilters from "../molecules/filters/WeightSizeFilters";
 import FontFamilyFilter from "../molecules/filters/FontFamilyFilter";
 import SpacingFilters from "../molecules/filters/SpacingFilters";
 import { useAppDispatch } from "../../redux/hooks";
-import defaultTextStyle from "../../services/defaultTextStyle";
-import toNumber from "../../services/toNumber";
-import getAlign from "../../services/getAlign";
+import defaultTextStyle from "../../services/helpers/defaultTextStyle";
+import toNumber from "../../services/helpers/toNumber";
+import getAlign from "../../services/helpers/getAlign";
 import { setFontFamily, setFontWeight, setFontSize, setFontColor, setLineHeight, setLetterSpacing, setAlign } from "../../redux/reducers/textStyleReducer";
 
 const SidePanelWrap = styled.div`

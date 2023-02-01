@@ -1,7 +1,7 @@
-import getAlign from "../../services/getAlign";
+import getAlign from "../../services/helpers/getAlign";
 import { Action, ActionType, State } from "./textStyleReducerInterfaces";
-import toNumber from "../../services/toNumber";
-import defaultTextStyle from "../../services/defaultTextStyle";
+import toNumber from "../../services/helpers/toNumber";
+import defaultTextStyle from "../../services/helpers/defaultTextStyle";
 
 
 export function setFontFamily(fontFamily: string): Action {

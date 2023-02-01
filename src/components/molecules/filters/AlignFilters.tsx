@@ -7,7 +7,7 @@ import AlignJustifyIcon from "../../atoms/icons/AlignJustifyIcon";
 import AlignLeftIcon from "../../atoms/icons/AlignLeftIcon";
 import AlignRightIcon from "../../atoms/icons/AlignRightIcon";
 import DivRow from "../../atoms/Containers/DivRow";
-import getAlign from "../../../services/getAlign";
+import getAlign from "../../../services/helpers/getAlign";
 
 const IconWrap = styled(DivRow)`
     flex: 1;

@@ -9,8 +9,8 @@ import InputSidePanel from "../InputSidePanel";
 import LetterSpacingIcon from "../../atoms/icons/LetterSpacingIcon";
 import PixelIcon from "../../atoms/icons/PixelIcon";
 import Spacer from "../../atoms/Spacer";
-import defaultTextStyle from "../../../services/defaultTextStyle";
-import toNumber from "../../../services/toNumber";
+import defaultTextStyle from "../../../services/helpers/defaultTextStyle";
+import toNumber from "../../../services/helpers/toNumber";
 
 const LineHeightWrap = styled(DivRow)`
     height: 100%;
@@ -32,6 +32,8 @@ const DivRowWrap = styled(DivRow)`
 
 function SpacingFilters() {
 
+    console.log(localStorage.getItem("lineHeight"));
+
     const [lineHeight, setLineHeight] = useState<number>(toNumber(localStorage.getItem("lineHeight"), defaultTextStyle.lineHeight));
     const [letterSpacing, setLetterSpacing] = useState<number>(toNumber(localStorage.getItem("letterSpacing"), defaultTextStyle.letterSpacing));
 
@@ -48,7 +50,6 @@ function SpacingFilters() {
             <DivRowWrap>
                 <LineHeightIcon />
                 <LineHeightWrap>
-                    {/* <TextSidePanelContainer>125</TextSidePanelContainer> */}
                     <InputSidePanel
                         value={lineHeight}
                         setValue={setLineHeight}

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import fonts from "../../../services/font/fonts";
 import Dropdown from "../Dropdown";
-import defaultTextStyle from "../../../services/defaultTextStyle";
+import defaultTextStyle from "../../../services/helpers/defaultTextStyle";
 
 function FontFamilyFilter() {
 

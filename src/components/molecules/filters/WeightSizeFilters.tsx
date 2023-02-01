@@ -5,8 +5,8 @@ import Dropdown from "../Dropdown";
 import weights from "../../../services/weight/weights";
 import DivRow from "../../atoms/Containers/DivRow";
 import FontSizeIcon from "../../atoms/icons/FontSizeIcon";
-import defaultTextStyle from "../../../services/defaultTextStyle";
-import toNumber from "../../../services/toNumber";
+import defaultTextStyle from "../../../services/helpers/defaultTextStyle";
+import toNumber from "../../../services/helpers/toNumber";
 import InputSidePanel from "../InputSidePanel";
 
 const WeightDropdownWrap = styled.div`

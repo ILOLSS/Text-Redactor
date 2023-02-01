@@ -1,6 +1,6 @@
-import colors from "./color/colors"
-import fonts from "./font/fonts"
-import weights from "./weight/weights"
+import colors from "../color/colors"
+import fonts from "../font/fonts"
+import weights from "../weight/weights"
 
 interface defaultTextStyleType {
     fontFamily: string,
