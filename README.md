@@ -1,3 +1,10 @@
+# Text Redactor
+This application allow users edit font family, font weight, font size, font size, line heihgt, letter spacing and align text.
+
+## Hosting
+
+https://text-redactor.vercel.app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
