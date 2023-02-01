@@ -1,6 +1,5 @@
 
 function toNumber(string: string | null, defaultValue: number): number {
-    // console.log(string);
     if (isNaN(Number(string))) {
         return defaultValue;
     }

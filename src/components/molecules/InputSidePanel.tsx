@@ -56,7 +56,6 @@ function InputSidePanel({ value, setValue, defaultValue }: InputSidePanelProps) 
             value={value.toString()}
             onChange={(event) => {
                 setValue(Number(event.target.value));
-                console.log(value);
             }}
         />
     );

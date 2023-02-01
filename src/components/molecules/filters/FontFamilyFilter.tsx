@@ -8,7 +8,7 @@ function FontFamilyFilter() {
     const [font, setFont] = useState<string>(localStorage.getItem("fontFamily") ?? defaultTextStyle.fontFamily);
 
     useEffect(() => {
-        localStorage.setItem("fontFont", font);
+        localStorage.setItem("fontFamily", font);
     }, [font]);
 
     return (

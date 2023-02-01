@@ -32,8 +32,6 @@ const DivRowWrap = styled(DivRow)`
 
 function SpacingFilters() {
 
-    console.log(localStorage.getItem("lineHeight"));
-
     const [lineHeight, setLineHeight] = useState<number>(toNumber(localStorage.getItem("lineHeight"), defaultTextStyle.lineHeight));
     const [letterSpacing, setLetterSpacing] = useState<number>(toNumber(localStorage.getItem("letterSpacing"), defaultTextStyle.letterSpacing));
 

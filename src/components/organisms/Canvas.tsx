@@ -29,7 +29,6 @@ function Canvas() {
             textAreaRef.current.addEventListener("change", (event) => {
                 if (textAreaRef && textAreaRef.current) {
                     localStorage.setItem("textArea", textAreaRef.current.value);
-                    console.log(textAreaRef.current.value);
                 }
             });
         }
